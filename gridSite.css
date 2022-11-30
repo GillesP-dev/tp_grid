@@ -1,0 +1,16 @@
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5,5%);
+    justify-content: center;
+
+}
+.article {
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 25% 50% 25%;
+}
